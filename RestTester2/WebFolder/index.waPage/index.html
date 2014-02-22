@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html><html>
+	<head>
+		<title>Main Page</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="generator" content="Wakanda GUIDesigner"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<meta name="WAF.packageJson"/>
+		<meta name="WAF.catalog" content="Contact,ContactType,Address"/>
+		<meta name="wakanda-version" content="7 build 7.152232"/>
+		<meta name="wakanda-build" content="7.152232"/>
+		<meta id="waf-interface-css" name="WAF.config.loadCSS" content="styles/index.css"/>
+		<meta id="waf-project-css" name="WAF.config.loadCSS" content="/application.css"/>
+
+		<meta data-type="dataSource" data-lib="WAF" data-source="ContactType" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="contactType" content="contactType"/>
+		
+		<meta data-type="dataSource" data-lib="WAF" data-source="contact.addressCollection" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="addressCollection" content="addressCollection"/><meta data-type="dataSource" data-lib="WAF" data-source="Contact" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="contact" content="contact"/></head>
+	<body id="waf-body" data-type="document" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-lib="WAF" data-entire-model="false" data-platform="desktop" data-viewport-width="device-width" data-viewport-initial-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-minimum-scale="1.0" data-apple-meta-tags-status-bar="default" data-workspace-orientation="portrait" data-workspace-width="0" data-workspace-height="0" data-group="[]" data-theme="default" style="bottom:;right:;visibility:hidden;">
+			<div id="container1" data-type="container" data-lib="WAF" class="waf-widget waf-container waf-container-level-0 waf-level-0" data-label="" data-label-position="top" data-constraint-left="true" data-constraint-top="true">
+ 		<input id="textField1" data-type="textField" data-lib="WAF" type="text" data-binding="contact.ID" class="waf-widget waf-textField " data-label="ID" data-label-position="left" data-multiline="false" data-readOnly="false" data-password="false" data-datapicker-on="true" data-datapicker-icon-only="false" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false"/>
+ 		<label id="label1" data-type="label" data-lib="WAF" for="textField1" data-valign="middle" data-margin="5" class="waf-widget waf-label waf-label-textField" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false">ID</label>
+ 		<input id="textField2" data-type="textField" data-lib="WAF" type="text" data-binding="contact.firstName" class="waf-widget waf-textField " data-label="firstName" data-label-position="left" data-multiline="false" data-readOnly="false" data-password="false" data-datapicker-on="true" data-datapicker-icon-only="false" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false"/>
+ 		<label id="label2" data-type="label" data-lib="WAF" for="textField2" data-valign="middle" data-margin="5" class="waf-widget waf-label waf-label-textField" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false">firstName</label>
+ 		<input id="textField3" data-type="textField" data-lib="WAF" type="text" data-binding="contact.lastName" class="waf-widget waf-textField " data-label="lastName" data-label-position="left" data-multiline="false" data-readOnly="false" data-password="false" data-datapicker-on="true" data-datapicker-icon-only="false" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false"/>
+ 		<label id="label3" data-type="label" data-lib="WAF" for="textField3" data-valign="middle" data-margin="5" class="waf-widget waf-label waf-label-textField" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false">lastName</label>
+ 		<div id="combobox1" data-type="combobox" data-lib="WAF" class="waf-widget waf-combobox " data-label="ContactType" data-label-position="left" data-autoDispatch="true" data-editable="true" data-limit="20" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" data-binding="contactType" data-binding-options="[name] " data-binding-key="ID" data-binding-out="contact.ContactType"><select><option value="">[name] </option></select></div>
+ 		<label id="label4" data-type="label" data-lib="WAF" for="combobox1" data-valign="middle" data-margin="5" class="waf-widget waf-label waf-label-combobox" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false">ContactType</label>
+ 		<div id="dataGrid2" data-type="dataGrid" data-lib="WAF" data-binding="addressCollection" class="waf-widget waf-dataGrid " data-label="addressCollection" data-label-position="top" data-selection-mode="single" data-display-error="true" data-footer-text="item(s)" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'},{'sourceAttID':'streeet','colID':'streeet','width':'150','title':'streeet'}]" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false"></div>
+ 		<label id="label5" data-type="label" data-lib="WAF" for="dataGrid2" data-valign="middle" data-margin="5" class="waf-widget waf-label waf-label-dataGrid" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false">addressCollection</label>
+ 		<button id="button1" data-type="button" data-lib="WAF" class="waf-widget waf-button " data-action="previous" data-target="_blank" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" data-binding="contact"></button>
+ 		<button id="button2" data-type="button" data-lib="WAF" class="waf-widget waf-button " data-action="create" data-target="_blank" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" data-binding="contact"></button>
+ 		<button id="button3" data-type="button" data-lib="WAF" class="waf-widget waf-button " data-action="save" data-target="_blank" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" data-binding="contact"></button>
+ 		<button id="button4" data-type="button" data-lib="WAF" class="waf-widget waf-button " data-action="next" data-target="_blank" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" data-binding="contact"></button>
+ 		<button id="button5" data-type="button" data-lib="WAF" class="waf-widget waf-button " data-action="remove" data-target="_blank" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" data-binding="contact"></button>
+ 	</div>
+	
+	
+	
+	
+		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
+</body>
+</html>
